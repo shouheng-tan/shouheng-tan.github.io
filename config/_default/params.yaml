@@ -25,7 +25,7 @@ hugoblox:
     style: navbar
     sticky: true
     align: center
-    search: true
+    search: false
     theme_toggle: true
   footer:
     style: minimal
