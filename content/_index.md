@@ -189,28 +189,28 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
-  # Recent Blog Posts
-  - block: collection
-    id: blog
-    content:
-      title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
-      text: ''
-      filters:
-        folders:
-          - blog
-        exclude_featured: false
-      count: 3
-      order: desc
-    design:
-      view: card
-      columns: 3
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+  # # Recent Blog Posts
+  # - block: collection
+  #   id: blog
+  #   content:
+  #     title: Recent Posts
+  #     subtitle: 'Thoughts on web development, tech, and more'
+  #     text: ''
+  #     filters:
+  #       folders:
+  #         - blog
+  #       exclude_featured: false
+  #     count: 3
+  #     order: desc
+  #   design:
+  #     view: card
+  #     columns: 3
+  #     background:
+  #       color:
+  #         light: "#f5f5f5"
+  #         dark: "#08080c"
+  #     spacing:
+  #       padding: ["4rem", "0", "4rem", "0"]
   
   # Contact Section
   - block: contact-info
@@ -221,7 +221,7 @@ sections:
       text: |-
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+      email: shou.heng.dev@gmail.com
       autolink: true
     design:
       columns: '1'
