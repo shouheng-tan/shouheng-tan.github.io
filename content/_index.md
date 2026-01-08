@@ -22,17 +22,16 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "full-stack web apps"
+          - "Integration & Workflows"
           - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "full-stack web apps"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
       cta_buttons:
-        - text: View My Work
-          url: "#projects"
-          icon: arrow-down
+        # - text: View My Work
+        #   url: "#projects"
+        #   icon: arrow-down
         - text: Get In Touch
           url: "#contact"
           icon: envelope
@@ -47,96 +46,96 @@ sections:
       spacing:
         padding: ["6rem", "0", "4rem", "0"]
   
-  # Filterable Portfolio - Alpine.js powered project filtering
-  - block: portfolio
-    id: projects
-    content:
-      title: "Featured Projects"
-      subtitle: "A selection of my recent work"
-      count: 6
-      filters:
-        folders:
-          - projects
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Full-Stack
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
-      default_button_index: 0
-      # Archive link auto-shown if more projects exist than 'count' above
-      # archive:
-      #   enable: false  # Set to false to explicitly hide
-      #   text: "Browse All"  # Customize text
-      #   link: "/work/"  # Custom URL
-    design:
-      columns: 3
-      background:
-        color:
-          light: "#ffffff"
-          dark: "#0d0d12"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+  # # Filterable Portfolio - Alpine.js powered project filtering
+  # - block: portfolio
+  #   id: projects
+  #   content:
+  #     title: "Featured Projects"
+  #     subtitle: "A selection of my recent work"
+  #     count: 6
+  #     filters:
+  #       folders:
+  #         - projects
+  #     buttons:
+  #       - name: All
+  #         tag: '*'
+  #       - name: Full-Stack
+  #         tag: Full-Stack
+  #       - name: Frontend
+  #         tag: Frontend
+  #       - name: Backend
+  #         tag: Backend
+  #     default_button_index: 0
+  #     # Archive link auto-shown if more projects exist than 'count' above
+  #     # archive:
+  #     #   enable: false  # Set to false to explicitly hide
+  #     #   text: "Browse All"  # Customize text
+  #     #   link: "/work/"  # Custom URL
+  #   design:
+  #     columns: 3
+  #     background:
+  #       color:
+  #         light: "#ffffff"
+  #         dark: "#0d0d12"
+  #     spacing:
+  #       padding: ["4rem", "0", "4rem", "0"]
   
-  # Visual Tech Stack - Icons organized by category
-  - block: tech-stack
-    id: skills
-    content:
-      title: "Tech Stack"
-      subtitle: "Technologies I use to build things"
-      categories:
-        - name: Languages
-          items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
-            - name: Python
-              icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
-          items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
-              icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
-          items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
-            - name: PostgreSQL
-              icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
-          items:
-            - name: Docker
-              icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices-wordmark
-            - name: GitHub Actions
-              icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
-    design:
-      style: grid
-      show_levels: false
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+  # # Visual Tech Stack - Icons organized by category
+  # - block: tech-stack
+  #   id: skills
+  #   content:
+  #     title: "Tech Stack"
+  #     subtitle: "Technologies I use to build things"
+  #     categories:
+  #       - name: Languages
+  #         items:
+  #           - name: TypeScript
+  #             icon: devicon/typescript
+  #           - name: JavaScript
+  #             icon: devicon/javascript
+  #           - name: Python
+  #             icon: devicon/python
+  #           - name: Go
+  #             icon: devicon/go
+  #       - name: Frontend
+  #         items:
+  #           - name: React
+  #             icon: devicon/react
+  #           - name: Next.js
+  #             icon: devicon/nextjs
+  #           - name: Tailwind CSS
+  #             icon: devicon/tailwindcss
+  #           - name: Alpine.js
+  #             icon: devicon/alpinejs
+  #       - name: Backend
+  #         items:
+  #           - name: Node.js
+  #             icon: devicon/nodejs
+  #           - name: Express
+  #             icon: devicon/express
+  #           - name: PostgreSQL
+  #             icon: devicon/postgresql
+  #           - name: Redis
+  #             icon: devicon/redis
+  #       - name: DevOps
+  #         items:
+  #           - name: Docker
+  #             icon: devicon/docker
+  #           - name: AWS
+  #             icon: devicon/amazonwebservices-wordmark
+  #           - name: GitHub Actions
+  #             icon: brands/github
+  #           - name: Vercel
+  #             icon: devicon/vercel
+  #   design:
+  #     style: grid
+  #     show_levels: false
+  #     background:
+  #       color:
+  #         light: "#f5f5f5"
+  #         dark: "#08080c"
+  #     spacing:
+  #       padding: ["4rem", "0", "4rem", "0"]
   
   # Experience Timeline
   - block: resume-experience
