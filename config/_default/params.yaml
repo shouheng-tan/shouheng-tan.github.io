@@ -3,9 +3,9 @@ hugoblox:
   identity:
     name: Shou Heng Tan
     type: person
-    tagline: Development Lead at Swap Asia
+    tagline: Development Lead 
     description: Strategic and hands-on Technical Lead with over 9 years of experience in enterprise-scale software development and digital transformation.
-    organization: Swap Asia
+    organization: ""
   theme:
     mode: system
     pack: contrast
