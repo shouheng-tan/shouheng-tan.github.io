@@ -1,100 +1,136 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: "Shou Heng Tan"
+  given: "Shou Heng"
+  family: "Tan"
+  alternate: "陈守恒"
 postnominals: []
 status:
-  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
-bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
-
+  icon: "💻"
+role: "Development Lead"
+email: "shou.heng.dev@gmail.com"
+bio: "Strategic and hands-on Technical Lead with over 9 years of experience in enterprise-scale software development and digital transformation. Proven expertise in leading engineering teams through complex SAP migrations and ERP integrations using Boomi and .NET architectures. Expert in technical governance, including implementing API Gateways for security and SQL review frameworks for performance. Strong communicator skilled in managing vendor relationships and translating complex technical roadmaps into actionable business value."
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
-
+  - name: "Tech Corp"
+    url: "https://techcorp.example.com"
 links:
-  - icon: at-symbol
-    url: mailto:alex@example.com
-    label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/alexjohnson
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
-
+  - icon: "at-symbol"
+    url: "mailto:shou.heng.dev@gmail.com"
+    label: "E-mail Me"
+  - icon: "brands/github"
+    url: "https://github.com/shouheng-tan"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/shouheng-tan/"
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
-
+  - "Integrations"
+  - "Cloud Architecture"
+  - "Web Development"
+  - "Developer Experience"
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
-    summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
-    button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
-
+  - degree: "Master of Data Science"
+    institution: "Sunway University, Malaysia"
+    start: "2022-01-01"
+    end: "2023-12-31"
+    summary: ""
+  - degree: "Bachelor of Computer Science "
+    institution: "University of Wollongong, Australia"
+    start: "2014"
+    end: "2016"
+    summary: ""
+  - degree: "Foundation in Business Information Technology "
+    institution: "INTI International University & Colleges"
+    start: "2013"
+    end: ""
+    summary: ""
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
-    summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
-    summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
-    summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+  - role: "Development Lead (L3 Team) "
+    org: "Swap Asia"
+    start: "2024-09-01"
+    end: ""
+    summary: "•\tImplemented Bytebase to facilitate structured SQL code reviews, improving visibility and accountability for database-level changes.
 
+
+      •\tIntegrated Boomi API Gateway enforcing OAuth2 and API Key authentication to enhance enterprise security.
+
+
+      •\tLed the technical integration strategy for migration from Microsoft AX to SAP (Jan 2024 – Apr 2025).
+
+
+      •\tManaged and mentored the L3 engineering team, balancing expertise-driven resource allocation with junior developer upskilling.
+
+
+      •\tEvaluated and managed vendors through cost-benefit analysis (CBA) and SLA governance.
+
+
+      •\tActed as the primary technical liaison between business stakeholders, vendors, and engineering teams.\n"
+  - role: "Software Developer (.NET) "
+    org: "Swap Asia"
+    start: "2023-01-01"
+    end: "2024-08-31"
+    summary: "•\tMaintained and enhanced legacy .NET Framework applications to ensure operational stability.
+
+
+      •\tAdopted Boomi Integration as a core capability to support complex internal and external integrations."
+  - role: "Business & Integration Architecture Specialist "
+    org: "Accenture"
+    start: "2017-03-01"
+    end: "2022-12-31"
+    summary: "•\tLed a team of 5 to deliver a 300+ man-day change request, redesigning over 300 application screens.
+
+
+      •\tHeaded SQL performance tuning initiatives to resolve scalability issues for global clients.
+
+
+      •\tSupported a large-scale global rollout in India for over 1,000 users.
+
+
+      •\tDesigned RESTful API enhancements after assessing technical feasibility and business requirements.
+
+
+      •\tMentored junior developers on system design, best practices, and performance optimization.\n"
 skills:
-  - name: Development
+  - name: "Leadership"
     items:
-      - label: TypeScript
-        level: 5
-      - label: React
-        level: 5
-      - label: Node.js
-        level: 5
-      - label: Python
+      - label: "People Leadership"
         level: 4
-  - name: DevOps
+      - label: "Resource Allocation"
+        level: 4
+      - label: "Vendor Selection"
+        level: 3
+      - label: "Mentorship"
+        level: 3
+  - name: "Development"
     items:
-      - label: Docker
+      - label: "SQL"
         level: 4
-      - label: AWS
+      - label: "ASP .Net"
+        level: 3
+      - label: "Python"
+        level: 3
+  - name: "Integration & Workflow"
+    items:
+      - label: "Boomi"
         level: 4
-      - label: CI/CD
-        level: 5
-
+      - label: "n8n"
+        level: 3
+  - name: "Infrastructure"
+    items:
+      - label: "Azure"
+        level: 3
+      - label: "OCI"
+        level: 3
+  - name: "Database"
+    items:
+      - label: "MSSQL"
+        level: 4
 languages:
-  - name: English
-    level: 5
-    label: Native
-
+  - name: "English"
+    level: null
+    label: "Native"
+  - name: "Chinese"
+    level: null
+    label: "Native"
 awards: []
+weight: null
